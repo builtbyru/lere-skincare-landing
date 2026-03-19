@@ -206,19 +206,3 @@ body {
   filter: blur(40px);
   animation: glowPulse 7s ease-in-out infinite;
 }
-
-.trust-strip {
-  background: white;
-  display: flex;
-  justify-content: space-around;
-  padding: 2rem;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-}
-
-.trust-item {
-  font-family: var(--font-sans);
-  font-size: 0.9rem;
-  letter-spacing: 1px;
-  color: var(--text-muted);
-}
