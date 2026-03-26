@@ -206,3 +206,79 @@ body {
   filter: blur(40px);
   animation: glowPulse 7s ease-in-out infinite;
 }
+
+.trust-strip {
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.trust-item {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+}
+
+.ritual-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 6rem 8%;
+  align-items: center;
+  gap: 4rem;
+  background: var(--ivory);
+}
+
+.ritual-label {
+  font-size: 0.8rem;
+  letter-spacing: 4px;
+  color: var(--plum);
+  margin-bottom: 1rem;
+}
+
+.ritual-section h2 {
+  font-family: var(--font-serif);
+  font-size: 2.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.ritual-description {
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  max-width: 420px;
+}
+
+.ritual-link {
+  color: var(--plum);
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.ritual-link:hover {
+  letter-spacing: 1px;
+}
+
+.ritual-visual {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.ritual-visual img {
+  width: 260px;
+  position: relative;
+  z-index: 2;
+}
+
+.ritual-glow {
+  position: absolute;
+  width: 340px;
+  height: 340px;
+  background: radial-gradient(circle, var(--glow-plum), transparent 70%);
+  filter: blur(50px);
+}
