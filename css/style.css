@@ -342,3 +342,42 @@ body {
   opacity: 0.7;
   line-height: 1.6;
 }
+
+.ingredients {
+  padding: 120px 8%;
+  text-align: center;
+  position: relative;
+}
+
+.ingredients-label {
+  font-size: 0.8rem;
+  letter-spacing: 4px;
+  color: var(--plum);
+  margin-bottom: 20px;
+}
+
+.ingredients h2 {
+  font-family: var(--font-serif);
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.ingredient-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.ingredient-list span {
+  padding: 12px 20px;
+  border-radius: 999px;
+  background: rgba(90, 42, 77, 0.06);
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.ingredient-list span:hover {
+  background: rgba(90, 42, 77, 0.15);
+}
