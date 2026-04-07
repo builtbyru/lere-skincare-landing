@@ -282,3 +282,63 @@ body {
   background: radial-gradient(circle, var(--glow-plum), transparent 70%);
   filter: blur(50px);
 }
+
+.benefits {
+  padding: 120px 8%;
+  text-align: center;
+  position: relative;
+}
+
+.benefits h2 {
+  font-family: var(--font-serif);
+  font-size: 42px;
+  margin-bottom: 60px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+
+.benefit-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.benefit-card {
+  padding: 40px 30px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(90, 42, 77, 0.08);
+  transition: all 0.35s ease;
+  position: relative;
+}
+
+.benefit-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 24px;
+  pointer-events: none;
+}
+
+.benefit-card:hover{
+  transform: translateY(-10px);
+  border-color: rgba(90, 42, 77, 0.25);
+  box-shadow: 0 20px 60px rgba(90, 42, 77, 0.12);
+}
+
+.benefit-card h3{
+  font-size: 22px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.benefit-card:hover h3 {
+  color: var(--plum);
+}
+
+.benefit-card p{
+  font-size: 15px;
+  opacity: 0.7;
+  line-height: 1.6;
+}
