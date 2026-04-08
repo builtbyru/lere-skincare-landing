@@ -381,3 +381,30 @@ body {
 .ingredient-list span:hover {
   background: rgba(90, 42, 77, 0.15);
 }
+
+.testimonials {
+  padding: 120px 8%;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.testimonials-label {
+  font-size: 0.8rem;
+  letter-spacing: 4px;
+  color: var(--plum);
+  margin-bottom: 30px;
+}
+
+.testimonials blockquote {
+  font-family: var(--font-serif);
+  font-size: 28px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.testimonial-author {
+  font-size: 14px;
+  opacity: 0.6;
+}
