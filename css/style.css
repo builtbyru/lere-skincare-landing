@@ -30,6 +30,10 @@
 
 /* BASE */ 
 
+html {
+  scroll-behavior: smooth;
+}
+
 html, body {
   height: 100%;
 }
@@ -407,4 +411,36 @@ body {
 .testimonial-author {
   font-size: 14px;
   opacity: 0.6;
+}
+
+.cta {
+  padding: 120px 8%;
+  text-align: center;
+}
+
+.cta h2 {
+  font-family: var(--font-serif);
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.cta p {
+  font-size: 16px;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 999px;
+  background: var(--plum);
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(90, 42, 77, 0.3);
 }
