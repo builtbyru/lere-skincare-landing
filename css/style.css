@@ -444,3 +444,19 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 10px 30px rgba(90, 42, 77, 0.3);
 }
+
+.footer {
+  padding: 60px 8%;
+  text-align: center;
+}
+
+.footer-logo {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer.text {
+  font-size: 13px;
+  opacity: 0.6;
+}
