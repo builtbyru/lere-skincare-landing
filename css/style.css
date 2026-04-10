@@ -471,3 +471,53 @@ body {
   font-size: 13px;
   opacity: 0.6;
 }
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 768px) {
+  
+  .hero{
+    flex-direction: column;
+    height: auto;
+  }
+
+  .hero-left,
+  .hero-right{
+    width: 100%;
+  }
+
+  .hero h1{
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .hero p{
+    font-size: 14px;
+  }
+
+  .hero-right img{
+    width: 70%;
+    max-width: 280px;
+  }
+
+  .ritual-section{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .benefit-grid{
+    grid-template-columns: 1fr;
+  }
+
+  section{
+    padding: 80px 6%;
+  }
+
+  .ingredient-list{
+    gap: 10px;
+  }
+
+  .testimonials blockquote{
+    font-size: 20px;
+  }
+}
