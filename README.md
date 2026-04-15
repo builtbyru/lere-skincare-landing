@@ -61,7 +61,7 @@ Ensuring a consistent and polished experience across all screen sizes.
 
 ## 🚀 Live Demo
 
-(link)
+https://builtbyru.github.io/lere-skincare-landing/
 
 ---
 
